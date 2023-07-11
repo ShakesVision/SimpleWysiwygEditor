@@ -2,7 +2,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>without bootstrap</title>
+    <title>Shakeeb Wysiwyg Editor</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -12,22 +13,14 @@
 
 <body>
     <div class="copy-btn-wrapper">
-        <button id="copy-btn" style="
-        font-size: x-small;
-    ">COPY<br><span style="
-    font-size: x-small;
-        position: absolute;
-        right: 9px;
-        z-index: 1;
-        background: #ffcf89;
-        border: 1px solid darkred;
-        padding: 9px;
-    "><i class="note-icon-code"></i></span></button>
+        <button id="copy-btn">COPY<br>
+            <span> <i class="note-icon-code"></i> </span>
+        </button>
     </div>
     <div id="summernote"></div>
     <script>
         $('#summernote').summernote({
-            placeholder: 'Write away!',
+            placeholder: 'Start writing!',
             tabsize: 2,
             height: 500,
             toolbar: [

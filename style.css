@@ -1,0 +1,13 @@
+.copy-btn-wrapper #copy-btn {
+    font-size: x-small;
+    position: absolute;
+    right: 9px;
+    z-index: 1;
+    background: #ffcf89;
+    border: 1px solid darkred;
+    padding: 9px;
+    cursor: pointer;
+}
+#copy-btn span {
+    font-size: x-small;
+}
